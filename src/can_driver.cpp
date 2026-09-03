@@ -1,4 +1,4 @@
-#include "gn10_stm32_fdcan/can_driver.hpp"
+#include "gn10_stm32_fdcan_driver/can_driver.hpp"
 
 namespace gn10_can {
 namespace drivers {
