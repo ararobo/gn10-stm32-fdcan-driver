@@ -71,7 +71,7 @@ private:
     FDCAN_HandleTypeDef* hfdcan_;
     FDCAN_FilterTypeDef filter;
     uint32_t rx_fifo_;
-    uint32_t tx_timeout_ms_ = 0;
+    uint32_t tx_timeout_ms_ = 1;
 };
 }  // namespace drivers
 }  // namespace gn10_can
