@@ -37,7 +37,10 @@ public:
      *
      * @param tx_timeout_ms
      */
-    void set_tx_timeout(uint32_t tx_timeout_ms);
+    void set_tx_timeout(uint32_t tx_timeout_ms)
+    {
+        tx_timeout_ms_ = tx_timeout_ms;
+    }
 
     /**
      * @brief CANを開始する
